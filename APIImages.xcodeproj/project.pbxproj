@@ -13,6 +13,8 @@
 		8C5E4A3B2A332D7B00931EC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C5E4A392A332D7B00931EC0 /* Main.storyboard */; };
 		8C5E4A3D2A332D7C00931EC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C5E4A3C2A332D7C00931EC0 /* Assets.xcassets */; };
 		8C5E4A402A332D7C00931EC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C5E4A3E2A332D7C00931EC0 /* LaunchScreen.storyboard */; };
+		8C5E4A482A332DC500931EC0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5E4A472A332DC500931EC0 /* Model.swift */; };
+		8C5E4A4A2A33344A00931EC0 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5E4A492A33344A00931EC0 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8C5E4A3C2A332D7C00931EC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C5E4A3F2A332D7C00931EC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C5E4A412A332D7C00931EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C5E4A472A332DC500931EC0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8C5E4A492A33344A00931EC0 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				8C5E4A3C2A332D7C00931EC0 /* Assets.xcassets */,
 				8C5E4A3E2A332D7C00931EC0 /* LaunchScreen.storyboard */,
 				8C5E4A412A332D7C00931EC0 /* Info.plist */,
+				8C5E4A472A332DC500931EC0 /* Model.swift */,
+				8C5E4A492A33344A00931EC0 /* CustomTableViewCell.swift */,
 			);
 			path = APIImages;
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C5E4A382A332D7B00931EC0 /* ViewController.swift in Sources */,
+				8C5E4A4A2A33344A00931EC0 /* CustomTableViewCell.swift in Sources */,
 				8C5E4A342A332D7B00931EC0 /* AppDelegate.swift in Sources */,
 				8C5E4A362A332D7B00931EC0 /* SceneDelegate.swift in Sources */,
+				8C5E4A482A332DC500931EC0 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
